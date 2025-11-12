@@ -53,6 +53,11 @@ dependencies {
 
     compileOnly(project(":ktlint-lib:ruleset-0-50-0")) // Required for IDE
     implementation(project(":ktlint-lib:ruleset-0-50-0", "shadow"))
+
+
+    compileOnly(project(":ktlint-lib:ruleset-0-43-2")) // Required for IDE
+    implementation(project(":ktlint-lib:ruleset-0-43-2", "shadow"))
+
 }
 
 kotlin {

@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>com.nbadal.ktlint</id>
-    <name>Ktlint</name>
+    <id>com.nbadal.ktlint-sendy</id>
+    <name>Ktlint (with legacy rulesets)</name>
     <vendor url="https://nbad.al">Nick Badal</vendor>
 
     <depends>com.intellij.modules.platform</depends>

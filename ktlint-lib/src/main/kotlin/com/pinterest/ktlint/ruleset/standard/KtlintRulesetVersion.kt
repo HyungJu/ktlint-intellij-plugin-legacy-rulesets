@@ -1,6 +1,7 @@
 package com.pinterest.ktlint.ruleset.standard
 
 import com.pinterest.ktlint.cli.ruleset.core.api.RuleSetProviderV3
+import com.pinterest.ktlint.ruleset.standard.V0_43_2.StandardRuleSetProvider as StandardRuleSetProviderV0_43_2
 import com.pinterest.ktlint.ruleset.standard.V0_50_0.StandardRuleSetProvider as StandardRuleSetProviderV0_50_0
 import com.pinterest.ktlint.ruleset.standard.V1_0_1.StandardRuleSetProvider as StandardRuleSetProviderV1_0_1
 import com.pinterest.ktlint.ruleset.standard.V1_1_1.StandardRuleSetProvider as StandardRuleSetProviderV1_1_1
@@ -39,6 +40,7 @@ enum class KtlintRulesetVersion(
     V1_1_1("1.1.1", StandardRuleSetProviderV1_1_1()),
     V1_0_1("1.0.1", StandardRuleSetProviderV1_0_1()),
     V0_50_0("0.50.0", StandardRuleSetProviderV0_50_0()),
+    V0_43_2("0.43.2 (for Sendy)", StandardRuleSetProviderV0_43_2()),
 
     // Older versions are not compatible with the plugin and are therefore not supported.
     // * Version 0.49 is incompatible as the RuleSet class was defined as value/data class which can not be used from Java environment
